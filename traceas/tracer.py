@@ -20,7 +20,7 @@ def trace(address, table):
     number = 0
 
     for raw_line in iter(tracert_proc.stdout.readline, ''):
-        line = raw_line.decode("cp1251")
+        line = raw_line.decode("cp866")
         ip = re.findall('\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}', line)
 
         if 'Трассировка завершена' in line:
