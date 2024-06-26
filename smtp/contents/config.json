@@ -1,0 +1,14 @@
+{
+  "host_address": "smtp.yandex.ru",
+  "port": 465,
+  "user_address": "",
+  "password": "",
+  "subject": "mnogo bukov мэни летерс mnogo bukov мэни летерс mnogo bukov мэни летерс mnogo bukov мэни летерс mnogo bukov мэни летерс, да",
+  "recipients": [
+    ""
+  ],
+  "message_file": "./contents/text.txt",
+  "attachments": [
+    "./contents/png.png"
+  ]
+}
